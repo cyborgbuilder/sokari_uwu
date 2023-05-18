@@ -50,7 +50,7 @@ const Wrap = styled.div`
     }
 
     img{
-      width: 25%;
+      width: 30%;
     }
 
 `
