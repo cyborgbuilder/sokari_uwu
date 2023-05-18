@@ -68,15 +68,16 @@ const Right = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #fff;
+    border: 2px solid #ecece1;
     border-radius: 5px;
     position: relative;
     z-index: 1000;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 
     &:hover{
       //background: #e1ad21;
       //border: 2px solid #e1ad21;
-      transform: scale(1.05);
+     //transform: scale(1.05);
       transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
       box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
@@ -106,7 +107,7 @@ box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px, rgb(0 0 0 / 72%) 0px 30px 22px
     border: none;
     outline: none;
     border-radius: 5px;
-    background: #fff;
+    background: #ecece1;
     color: black;
     font-family: 'Bruno Ace', cursive;
     letter-spacing: 1.6px;

@@ -5,6 +5,8 @@ import styled from 'styled-components'
 import LogoPage from './LogoPage'
 import About from './About'
 import Order from './Order'
+import Feedback from './Feedback'
+import Footer from './Footer'
 
 function Home() {
   return (
@@ -14,6 +16,8 @@ function Home() {
       <BlankPage />
       <LogoPage />
       <Order />
+      <Feedback />
+      <Footer />
     </Container>
   )
 }

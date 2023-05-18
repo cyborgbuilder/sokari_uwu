@@ -3,7 +3,7 @@ import styled from 'styled-components'
 function Map() {
     return (
         <Container>
-            <img src='./images/banner2.jpg' />
+            <img src='./images/uni.jpg' />
         </Container>
     )
 }
@@ -11,7 +11,7 @@ function Map() {
 const Container = styled.div`
     width: 100%;
     height: 100vh;
-    background-image: url('/Images/banner.jpg');
+
     background: black;
     position: fixed;
     top: 0;

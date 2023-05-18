@@ -4,7 +4,13 @@ import styled from 'styled-components'
 function Hero() {
   return (
     <Container>
-      
+      <video src='./images/back.mp4' autoPlay muted loop />
+
+      <Wrap>
+        {/* <h1>SOKARI</h1>
+        <h2>UVA WELLASSA UNIVERSITY PRESENTS</h2> */}
+        <img src='./images/logo2.png' />
+      </Wrap>
     </Container>
   )
 }
@@ -16,7 +22,36 @@ const Container = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
+    video{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
 
 `
+const Wrap = styled.div`
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
+    h1{
+      font-size: 90px;
+    }
+    h2{
+      letter-spacing: 1.6px;
+      margin: 20px 0;
+      //color: #e1ad21;
+    }
+
+    img{
+      width: 25%;
+    }
+
+`
 export default Hero

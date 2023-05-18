@@ -4,7 +4,7 @@ function LogoPage() {
     return (
         <Container>
             <div>
-            <img src="/Images/logo2.png"/>
+            <img src="/Images/uwu.png"/>
             </div>
         </Container>
     )
@@ -17,6 +17,7 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     background: transperant;
+    
 
     @media only screen and (max-width: 768px) {
         height: 100vh;
@@ -27,6 +28,7 @@ const Container = styled.div`
         //border: 2px solid rgb(102, 233, 51);
         border-radius: 50%;
         //background: rgb(102, 233, 51);
+        border-radius: 50%;
 
         @media only screen and (max-width: 768px) {
             width: 50%;
@@ -36,7 +38,7 @@ const Container = styled.div`
 
         img{
             width: 100%;
-            border-radius: 50%;
+            
         }
     }
 `

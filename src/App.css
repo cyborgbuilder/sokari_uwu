@@ -5,17 +5,22 @@
 }
 
 h1{
-  color: #fff;
+  color: rgb(206 178 102);
+  font-family: 'Bruno Ace', cursive;
+}
+
+h2{
+  color: #ecece1;
   font-family: 'Bruno Ace', cursive;
 }
 p{
-  color: #fff;
+  color: #ecece1;
   font-family: 'Playfair Display', serif;
 }
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);
-      transform: translateX(100px);
   }
   to {
     transform: rotate(359deg);
