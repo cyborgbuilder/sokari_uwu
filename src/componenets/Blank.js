@@ -10,7 +10,7 @@ function BlankPage() {
 
 const Container = styled.div`
     width: 100%;
-    height: 30vh;
+    height: 15vh;
     background: transperant;
 `
 export default BlankPage

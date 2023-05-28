@@ -69,45 +69,56 @@ export default function BasicTabs() {
       </Box>
       <TabPanel value={value} index={0} style={{display: 'flex'}}>
 
-        <Main >
-          <div className='border_div'>
-          <img src='./images/sportsw.png' />
+      <Main >
+      <div className='border_div'>
+      
+      <img src='./images/sportsw.png' />
+      
+      
+     
           <span class="top"></span>
       <span class="right"></span>
       <span class="bottom"></span>
       <span class="left"></span>
           </div>
-          
         </Main>
         <Sub>
-          <img src='./images/rayon.png' />
-          <img src='./images/hte.png' />
-          <img src='./images/IEEE.png' />
-          <img src='./images/eemu.png' />
-          <img src='./images/union.png' />
+        
+        <img src='./images/rayon.png' />
+        <img src='./images/hte.png' />
+        <img src='./images/IEEE.png' />
+        <img src='./images/eemu.png' />
           <img src='./images/leo.png' />
+          <img src='./images/union.png' />
           <img src='./images/rac.png' />
+          
         </Sub>
       </TabPanel>
       <TabPanel value={value} index={1}>
       <Main >
       <div className='border_div'>
+      
+      
       <img src='./images/rayon.png' />
+      
+      
+     
           <span class="top"></span>
       <span class="right"></span>
       <span class="bottom"></span>
       <span class="left"></span>
           </div>
-          
         </Main>
         <Sub>
+        
         <img src='./images/sportsw.png' />
-          <img src='./images/hte.png' />
-          <img src='./images/IEEE.png' />
-          <img src='./images/eemu.png' />
-          <img src='./images/union.png' />
+        <img src='./images/hte.png' />
+        <img src='./images/IEEE.png' />
+        <img src='./images/eemu.png' />
           <img src='./images/leo.png' />
+          <img src='./images/union.png' />
           <img src='./images/rac.png' />
+          
         </Sub>
       </TabPanel>
       <TabPanel value={value} index={2}>
@@ -130,11 +141,115 @@ export default function BasicTabs() {
           <img src='./images/rac.png' />
         </Sub>
       </TabPanel>
-      <TabPanel value={value} index={2}>
-        
+      <TabPanel value={value} index={3}>
+      <Main >
+      <div className='border_div'>
+      
+      <img src='./images/IEEE.png' />
+          <span class="top"></span>
+      <span class="right"></span>
+      <span class="bottom"></span>
+      <span class="left"></span>
+          </div>
+        </Main>
+        <Sub>
+        <img src='./images/sportsw.png' />
+        <img src='./images/rayon.png' />
+        <img src='./images/hte.png' />
+          <img src='./images/eemu.png' />
+          <img src='./images/union.png' />
+          <img src='./images/leo.png' />
+          <img src='./images/rac.png' />
+        </Sub>
       </TabPanel>
-      <TabPanel value={value} index={2}>
-        
+      <TabPanel value={value} index={4}>
+      <Main >
+      <div className='border_div'>
+      
+      
+      <img src='./images/eemu.png' />
+          <span class="top"></span>
+      <span class="right"></span>
+      <span class="bottom"></span>
+      <span class="left"></span>
+          </div>
+        </Main>
+        <Sub>
+        <img src='./images/sportsw.png' />
+        <img src='./images/rayon.png' />
+        <img src='./images/hte.png' />
+        <img src='./images/IEEE.png' />
+          <img src='./images/union.png' />
+          <img src='./images/leo.png' />
+          <img src='./images/rac.png' />
+        </Sub>
+      </TabPanel>
+      <TabPanel value={value} index={5}>
+      <Main >
+      <div className='border_div'>
+      
+      
+      
+      <img src='./images/union.png' />
+          <span class="top"></span>
+      <span class="right"></span>
+      <span class="bottom"></span>
+      <span class="left"></span>
+          </div>
+        </Main>
+        <Sub>
+        <img src='./images/sportsw.png' />
+        <img src='./images/rayon.png' />
+        <img src='./images/hte.png' />
+        <img src='./images/IEEE.png' />
+        <img src='./images/eemu.png' />
+          <img src='./images/leo.png' />
+          <img src='./images/rac.png' />
+        </Sub>
+      </TabPanel>
+      <TabPanel value={value} index={6}>
+      <Main >
+      <div className='border_div'>
+      <img src='./images/leo.png' />
+          <span class="top"></span>
+      <span class="right"></span>
+      <span class="bottom"></span>
+      <span class="left"></span>
+          </div>
+        </Main>
+        <Sub>
+        <img src='./images/sportsw.png' />
+        <img src='./images/rayon.png' />
+        <img src='./images/hte.png' />
+        <img src='./images/IEEE.png' />
+        <img src='./images/eemu.png' />
+        <img src='./images/union.png' />
+          <img src='./images/rac.png' />
+        </Sub>
+      </TabPanel>
+      <TabPanel value={value} index={7}>
+      <Main >
+      <div className='border_div'>
+      <img src='./images/rac.png' />
+      
+      
+     
+          <span class="top"></span>
+      <span class="right"></span>
+      <span class="bottom"></span>
+      <span class="left"></span>
+          </div>
+        </Main>
+        <Sub>
+        <img src='./images/sportsw.png' />
+        <img src='./images/rayon.png' />
+        <img src='./images/hte.png' />
+        <img src='./images/IEEE.png' />
+        <img src='./images/eemu.png' />
+          <img src='./images/leo.png' />
+          <img src='./images/union.png' />
+          
+        </Sub>
       </TabPanel>
       <TabPanel value={value} index={2}>
         
@@ -177,7 +292,7 @@ const Wrap = styled.div`
   }
   h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     padding: 20px 0;
 
     @media only screen and (max-width: 1200px){
