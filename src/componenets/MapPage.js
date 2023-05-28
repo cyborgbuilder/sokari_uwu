@@ -22,6 +22,9 @@ const Container = styled.div`
     h1{
       font-size: 40px;
       padding: 30px 0;
+      @media only screen and (max-width: 1200px){
+        font-size: 28px;
+      }
     }
 
     @media only screen and (max-width: 1200px){

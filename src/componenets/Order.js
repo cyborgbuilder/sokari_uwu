@@ -33,6 +33,10 @@ background-repeat: no-repeat;
 position: relative;
 overflow: hidden;
 
+@media only screen and (max-width: 1200px){
+  height: 60vh;
+}
+
 `
 
 const Image = styled.div`
@@ -44,7 +48,7 @@ const Image = styled.div`
     height: 100%;
 
     @media only screen and (max-width: 1200px){
-      width: 200%;
+      width: 185%;
     } 
   }
 

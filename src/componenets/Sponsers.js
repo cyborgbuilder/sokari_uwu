@@ -50,18 +50,22 @@ export default function BasicTabs() {
     <Container>
       <Wrap>
         <h1>Sponsered by</h1>
-      <Box sx={{ width: '100%' }}>
-      <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="Sports Council" style={{fontFamily: "'Bruno Ace', cursive", color: '#fff'}} {...a11yProps(0)} />
+        <Desktop>
+        <Box sx={{ width: '100%' }}>
+      <Box sx={{ borderBottom: 1, borderColor: 'divider', display: 'flex' , flexDirection: 'column'}}>
+        
+        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" >
+
+         <Tab label="Sports Council" style={{fontFamily: "'Bruno Ace', cursive", color: '#fff'}} {...a11yProps(0)} />
           <Tab label="UVA RAYON" {...a11yProps(1)} style={{fontFamily: "'Bruno Ace', cursive", color: '#fff'}}/>
           <Tab label="HTE CLUB" {...a11yProps(2)} style={{fontFamily: "'Bruno Ace', cursive", color: '#fff'}}/>
           <Tab label="IEEE" {...a11yProps(2)} style={{fontFamily: "'Bruno Ace', cursive", color: '#fff'}}/>
           <Tab label="EEMU" {...a11yProps(2)} style={{fontFamily: "'Bruno Ace', cursive", color: '#fff'}}/>
-          <Tab label="STUDENT UNION" {...a11yProps(2)} style={{fontFamily: "'Bruno Ace', cursive", color: '#fff'}}/>
+          <Tab label="STUDENT UNION" {...a11yProps(2)} style={{fontFamily: "'Bruno Ace', cursive", color: '#fff'}}/>>
           <Tab label="LEO" {...a11yProps(2)} style={{fontFamily: "'Bruno Ace', cursive", color: '#fff'}}/>
           <Tab label="ROTRACT" {...a11yProps(2)} style={{fontFamily: "'Bruno Ace', cursive", color: '#fff'}}/>
         </Tabs>
+       
       </Box>
       <TabPanel value={value} index={0} style={{display: 'flex'}}>
 
@@ -136,6 +140,17 @@ export default function BasicTabs() {
         
       </TabPanel>
     </Box>
+        </Desktop>
+        <Mobile>
+        <img src='./images/sportsw.png' />
+        <img src='./images/rayon.png' />
+          <img src='./images/IEEE.png' />
+          <img src='./images/eemu.png' />
+          <img src='./images/union.png' />
+          <img src='./images/leo.png' />
+          <img src='./images/rac.png' />
+          <img src='./images/hte.png' />
+        </Mobile>
       </Wrap>
     </Container>
   );
@@ -155,6 +170,8 @@ const Wrap = styled.div`
   width: 95%;
   border-radius: 15px;
 
+  
+
   img{
     width: 30%;
   }
@@ -162,6 +179,10 @@ const Wrap = styled.div`
     text-align: center;
     font-size: 50px;
     padding: 20px 0;
+
+    @media only screen and (max-width: 1200px){
+      font-size: 28px;
+    }
   }
 
 `
@@ -178,9 +199,37 @@ img{
 
 const Sub = styled.div`
   padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   img{
     width: 10%;
     margin: 0 20px; 
   }
 
+`
+
+const Mobile = styled.div`
+  display: none;
+  width: 100%;
+
+  @media only screen and (max-width: 1200px){
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  img{
+    width: 25%;
+    margin: 10px;
+  }
+
+`
+
+const Desktop = styled.div`
+@media only screen and (max-width: 1200px){
+  display: none;
+}
 `
