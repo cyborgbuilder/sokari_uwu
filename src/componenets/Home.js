@@ -7,6 +7,8 @@ import About from './About'
 import Order from './Order'
 import Feedback from './Feedback'
 import Footer from './Footer'
+import MapPage from './MapPage'
+import Sponsers from './Sponsers'
 
 function Home() {
   return (
@@ -17,7 +19,10 @@ function Home() {
       <LogoPage />
       <Order />
       <Feedback />
+      <MapPage />
+      <Sponsers />
       <Footer />
+
     </Container>
   )
 }

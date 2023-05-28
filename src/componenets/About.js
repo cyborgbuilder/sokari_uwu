@@ -21,7 +21,7 @@ function About() {
 }
 const Container = styled.div`
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,6 +33,10 @@ const Wrap = styled.div`
     width: 95%;
     display: flex;
 
+    @media only screen and (max-width: 1200px){
+      flex-direction: column;
+    }
+
 
 `
 
@@ -42,16 +46,27 @@ const Left = styled.div`
     align-items: center;
     justify-content: center;
 
+    @media only screen and (max-width: 1200px){
+      width: 100%;
+    }
+
 `
 
 const Right = styled.div`
     width: 50%;
+    @media only screen and (max-width: 1200px){
+      width: 100%;
+    }
 
     h1{
         text-align: center;
         font-size: 35px;
         padding: 20px 0;
         //color: #e1ad21;
+
+        @media only screen and (max-width: 1200px){
+          font-size: 28px;
+        }
     }
 
     p{
@@ -60,6 +75,10 @@ const Right = styled.div`
         line-height: 2.1rem;
         letter-spacing: 1.7px;
         //color: #d4af37;
+
+        @media only screen and (max-width: 1200px){
+          font-size: 16px;
+        }
     }
 
 `

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import './Style.css'
 
 function Order() {
   return (
@@ -9,8 +10,12 @@ function Order() {
         <Wrap>
           <Left></Left>
           <Right>
-            <div>
+            <div className='border_div'>
             <button>ORDER</button>
+            <span class="top"></span>
+      <span class="right"></span>
+      <span class="bottom"></span>
+      <span class="left"></span>
             </div>
           </Right>
         </Wrap>
@@ -22,11 +27,11 @@ function Order() {
 const Container = styled.div`
 width: 100%;
 height: 80vh;
-background-image: url('./images/back.png');
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 position: relative;
+overflow: hidden;
 
 `
 
@@ -37,6 +42,10 @@ const Image = styled.div`
   img{
     width: 100%;
     height: 100%;
+
+    @media only screen and (max-width: 1200px){
+      width: 200%;
+    } 
   }
 
 `
@@ -53,6 +62,10 @@ const Wrap = styled.div`
 const Left = styled.div`
   width: 50%;
 
+  @media only screen and (max-width: 1200px){
+    display: none;
+  } 
+
 `
 
 const Right = styled.div`
@@ -62,43 +75,11 @@ const Right = styled.div`
   align-items: center;
   justify-content: center;
 
-  div{
-    width: 300px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #ecece1;
-    border-radius: 5px;
-    position: relative;
-    z-index: 1000;
-    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  @media only screen and (max-width: 1200px){
+    width: 100%;
+  } 
 
-    &:hover{
-      //background: #e1ad21;
-      //border: 2px solid #e1ad21;
-     //transform: scale(1.05);
-      transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
-      box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
-0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
-
-box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px, rgb(0 0 0 / 72%) 0px 30px 22px -10px;
-    }
-
-  //   &:before{
-  //     content: '';  #e1ad21
-  //     position: absolute;
-  //     bottom: 25px;
-  //     left: 0;
-  //     width: 15%;
-  //     height: 20%;
-  //     background: #e1ad21;
-  //     border-radius: 50% 50% 50% 50%;
-  //     box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px, rgb(0 0 0 / 73% ) 0px 16px 10px -10px;
-  //     z-index: -1;
-  //     animation: rotation 10s infinite linear;
-  // }
-  }
+ 
 
   button{
     width: 80%;

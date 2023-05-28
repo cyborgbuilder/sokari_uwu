@@ -51,6 +51,10 @@ const Wrap = styled.div`
 
     img{
       width: 30%;
+
+      @media only screen and (max-width: 1200px){
+        width: 80%;
+      } 
     }
 
 `

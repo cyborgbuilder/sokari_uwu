@@ -20,7 +20,7 @@ function Feedback() {
 
 const Container = styled.div`
     width: 100%;
-    height: 70vh;
+    min-height: 70vh;
     background: black;
     display: flex;
     align-items: center;
@@ -31,15 +31,29 @@ const Wrap = styled.div`
     height: 100%;
     display: flex;
 
+    @media only screen and (max-width: 1200px){
+      flex-direction: column;
+    }
+
 `
 const Left = styled.div`
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    @media only screen and (max-width: 1200px){
+      position: relative;
+    }
 
     img{
         animation: rotation 10s infinite linear;
+
+        @media only screen and (max-width: 1200px){
+          position: absolute;
+          top: 10%;
+          z-index: 0;
+        }
     }
 
 `
@@ -50,17 +64,32 @@ const Right = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    z-index: 1000;
+
+    @media only screen and (max-width: 1200px){
+      width: 100%;
+    }
 
     h1{
         text-align: center;
         padding: 30px 0;
         letter-spacing: 1.3px;
+
+        @media only screen and (max-width: 1200px){
+          font-size: 28px;
+        }
+
+
     }
     p{
         text-align: center;
         font-size: 19px;
         line-height: 2.1rem;
         letter-spacing: 1.2px;
+
+        @media only screen and (max-width: 1200px){
+          font-size: 16px;
+        }
     }
     button{
         width: 25%;
@@ -75,7 +104,11 @@ const Right = styled.div`
         font-family: 'Bruno Ace', cursive;
         letter-spacing: 1.6px;
         transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
-    
+
+        @media only screen and (max-width: 1200px){
+          width: 60%;
+          height: 50px;
+        }
         &:hover{
           cursor: pointer;
           background: #e1ad21;
