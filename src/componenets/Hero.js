@@ -1,11 +1,26 @@
-import React from 'react'
+import React, {useRef } from 'react'
 import styled from 'styled-components'
 
 function Hero() {
+  
   return (
     <Container>
-      <video src='./images/back.mp4' autoPlay controls='false' muted loop />
+      {/* <video src='./images/back.mp4' 
+      autoPlay 
+      muted 
+      loop
+      playsInline /> */}
 
+<div  dangerouslySetInnerHTML={{ __html: `
+        <video
+          loop
+          muted
+          autoplay
+          playsinline
+          src="./images/back.mp4"
+          
+        />,
+      ` }}></div>
       <Wrap>
         {/* <h1>SOKARI</h1>
         <h2>UVA WELLASSA UNIVERSITY PRESENTS</h2> */}
