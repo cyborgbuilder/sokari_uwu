@@ -23,7 +23,7 @@ function Home() {
       <Feedback />
       <MapPage />
       <Sponsers />
-      {/* <Footer /> */}
+      <Footer />
 
     </Container>
   )

@@ -12,5 +12,9 @@ const Container = styled.div`
     width: 100%;
     height: 80vh;
     background: transperant;
+
+    @media only screen and (max-width: 1200px){
+        height: 30vh;
+      }
 `
 export default BlankPage
