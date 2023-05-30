@@ -11,7 +11,8 @@ function Order() {
           <Left></Left>
           <Right>
             <div className='border_div'>
-            <button>ORDER</button>
+            
+            <a href='https://bit.ly/Sokari_2023'><button>ORDER</button></a>
             <span class="top"></span>
       <span class="right"></span>
       <span class="bottom"></span>
@@ -86,7 +87,7 @@ const Right = styled.div`
  
 
   button{
-    width: 80%;
+    width: 200px;
     height: 90px;
     font-size: 28px;
     border: none;

@@ -11,7 +11,9 @@ function Feedback() {
         <Right>
             <h1>Give us your feedback!</h1>
             <p>We would love to hear your thoughts on Sokari, the mesmerizing event that brought together Music, Dance, and Drama in an unforgettable spectacle. Share your feedback about the experience, performances, and any suggestions you may have. Your input is invaluable in shaping future editions of Sokar</p>
-            <button>Click</button>
+            
+           {/* <button ><a href='https://bit.ly/Sokari2023_Feedback'>Click</a> </button> */}
+           <a href='https://bit.ly/Sokari2023_Feedback'><button>Click</button></a>
         </Right>
       </Wrap>
     </Container>
@@ -70,6 +72,8 @@ const Right = styled.div`
       width: 100%;
     }
 
+    
+
     h1{
         text-align: center;
         padding: 30px 0;
@@ -92,7 +96,7 @@ const Right = styled.div`
         }
     }
     button{
-        width: 25%;
+        width: 150px;
         height: 40px;
         font-size: 18px;
         margin: 30px 0;
@@ -106,7 +110,7 @@ const Right = styled.div`
         transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 
         @media only screen and (max-width: 1200px){
-          width: 60%;
+          width: 150px;
           height: 50px;
         }
         &:hover{

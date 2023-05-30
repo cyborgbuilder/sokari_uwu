@@ -10,9 +10,11 @@ function Footer() {
     <Container>
       <Wrap>
       <div>
-            <BsInstagram  style={{fontSize: '40px', margin: '10px'}}/>
-            <BsFacebook style={{fontSize: '40px', margin: '10px'}}/>
-            <BsYoutube style={{fontSize: '40px', margin: '10px'}}/>
+            
+            <a href='https://instagram.com/artclub.uwu?igshid=NTc4MTIwNjQ2YQ=='><BsInstagram  style={{fontSize: '40px', margin: '10px'}}/></a>
+            <a href='https://www.facebook.com/artclubofuwu?mibextid=ZbWKwL'><BsFacebook style={{fontSize: '40px', margin: '10px'}}/></a>
+            
+            {/* <BsYoutube style={{fontSize: '40px', margin: '10px'}}/> */}
         </div>
         <div>
         <p>Adithya (President of Art club) &nbsp; - &nbsp; <span>+94 769371512</span></p>
@@ -49,7 +51,6 @@ const Wrap = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding-bottom: 20px ;
 
     @media only screen and (max-width: 1200px){
       flex-direction: column;
@@ -57,7 +58,7 @@ const Wrap = styled.div`
 
     div{
       color: #fff;
-      width: 28%;
+      width: 32%;
       padding: 10px 0;
 
       @media only screen and (max-width: 1200px){
@@ -72,6 +73,9 @@ const Wrap = styled.div`
       @media only screen and (max-width: 1200px){
         font-size: 11px;
       }
+    }
+    a{
+      color: #fff;
     }
 
     icons{

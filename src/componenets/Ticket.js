@@ -28,7 +28,7 @@ const Container = styled.div`
     }
 
     img{
-        width: 40%;
+        width: 31%;
         margin: 5px;
         transform: rotate(30deg);
 
