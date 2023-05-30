@@ -9,19 +9,8 @@ function Hero() {
       autoPlay
       muted 
       loop
-      playsInline />
+       />
 
-{/* <div className='video' dangerouslySetInnerHTML={{ __html: `
-        <video
-          loop
-          muted
-          autoplay
-          playsinline
-          src="./images/back.mp4"
-          classname='vvideo'
-          
-        />,
-      ` }}></div> */}
       <Wrap>
         {/* <h1>SOKARI</h1>
         <h2>UVA WELLASSA UNIVERSITY PRESENTS</h2> */}
