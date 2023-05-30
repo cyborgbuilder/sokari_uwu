@@ -4,7 +4,7 @@ import styled from 'styled-components'
 function Hero() {
   return (
     <Container>
-      <video src='./images/back.mp4' autoPlay muted loop />
+      <video src='./images/back.mp4' autoPlay controls='false' muted loop />
 
       <Wrap>
         {/* <h1>SOKARI</h1>
