@@ -6,10 +6,9 @@ function Hero() {
   return (
     <Container>
       <video src='./images/back.mp4' 
-      autoPlay={true} 
+      autoPlay
       muted 
-      loop={true}
-      controls={false}
+      loop
       playsInline />
 
 {/* <div className='video' dangerouslySetInnerHTML={{ __html: `

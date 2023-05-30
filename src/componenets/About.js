@@ -6,8 +6,8 @@ function About() {
     <Container>
       <Wrap>
         <Left>
-        {/* <ReactPlayer url='/images/mask.mp4' config={{ file: { attributes: {autoPlay: true,muted: true }}}}  playing='playing' loop='true' width='80%' height='100%' /> */}
-        <ReactPlayer
+        <ReactPlayer url='/images/mask.mp4' config={{ file: { attributes: {autoPlay: true,muted: true }}}}  playing='playing' loop='true' width='80%' height='100%' />
+        {/* <ReactPlayer
         url="/images/mask.mp4"
         config={{
           file: {
@@ -22,7 +22,7 @@ function About() {
         controls={false}
         width="80%"
         height="100%"
-      />
+      /> */}
         </Left>
         <Right>
             <h1>ABOUT SOKARI</h1>
