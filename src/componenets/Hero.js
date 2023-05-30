@@ -5,22 +5,24 @@ function Hero() {
   
   return (
     <Container>
-      {/* <video src='./images/back.mp4' 
-      autoPlay 
+      <video src='./images/back.mp4' 
+      autoPlay={true} 
       muted 
-      loop
-      playsInline /> */}
+      loop={true}
+      controls={false}
+      playsInline />
 
-<div  dangerouslySetInnerHTML={{ __html: `
+{/* <div className='video' dangerouslySetInnerHTML={{ __html: `
         <video
           loop
           muted
           autoplay
           playsinline
           src="./images/back.mp4"
+          classname='vvideo'
           
         />,
-      ` }}></div>
+      ` }}></div> */}
       <Wrap>
         {/* <h1>SOKARI</h1>
         <h2>UVA WELLASSA UNIVERSITY PRESENTS</h2> */}
