@@ -64,6 +64,7 @@ export default function BasicTabs() {
           <Tab label="STUDENT UNION" {...a11yProps(2)} style={{fontFamily: "'Bruno Ace', cursive", color: '#fff'}}/>>
           <Tab label="LEO" {...a11yProps(2)} style={{fontFamily: "'Bruno Ace', cursive", color: '#fff'}}/>
           <Tab label="ROTRACT" {...a11yProps(2)} style={{fontFamily: "'Bruno Ace', cursive", color: '#fff'}}/>
+          <Tab label="AIESEC" {...a11yProps(2)} style={{fontFamily: "'Bruno Ace', cursive", color: '#fff'}}/>
         </Tabs>
        
       </Box>
@@ -91,6 +92,7 @@ export default function BasicTabs() {
           <img src='./images/leo.png' />
           <img src='./images/union.png' />
           <img src='./images/rac.png' />
+          <img src='./images/aisec.png' />
           
         </Sub>
       </TabPanel>
@@ -118,6 +120,7 @@ export default function BasicTabs() {
           <img src='./images/leo.png' />
           <img src='./images/union.png' />
           <img src='./images/rac.png' />
+          <img src='./images/aisec.png' />
           
         </Sub>
       </TabPanel>
@@ -139,6 +142,7 @@ export default function BasicTabs() {
           <img src='./images/union.png' />
           <img src='./images/leo.png' />
           <img src='./images/rac.png' />
+          <img src='./images/aisec.png' />
         </Sub>
       </TabPanel>
       <TabPanel value={value} index={3}>
@@ -160,6 +164,7 @@ export default function BasicTabs() {
           <img src='./images/union.png' />
           <img src='./images/leo.png' />
           <img src='./images/rac.png' />
+          <img src='./images/aisec.png' />
         </Sub>
       </TabPanel>
       <TabPanel value={value} index={4}>
@@ -182,6 +187,7 @@ export default function BasicTabs() {
           <img src='./images/union.png' />
           <img src='./images/leo.png' />
           <img src='./images/rac.png' />
+          <img src='./images/aisec.png' />
         </Sub>
       </TabPanel>
       <TabPanel value={value} index={5}>
@@ -205,6 +211,7 @@ export default function BasicTabs() {
         <img src='./images/eemu.png' />
           <img src='./images/leo.png' />
           <img src='./images/rac.png' />
+          <img src='./images/aisec.png' />
         </Sub>
       </TabPanel>
       <TabPanel value={value} index={6}>
@@ -225,6 +232,7 @@ export default function BasicTabs() {
         <img src='./images/eemu.png' />
         <img src='./images/union.png' />
           <img src='./images/rac.png' />
+          <img src='./images/aisec.png' />
         </Sub>
       </TabPanel>
       <TabPanel value={value} index={7}>
@@ -248,11 +256,36 @@ export default function BasicTabs() {
         <img src='./images/eemu.png' />
           <img src='./images/leo.png' />
           <img src='./images/union.png' />
+          <img src='./images/aisec.png' />
           
         </Sub>
       </TabPanel>
-      <TabPanel value={value} index={2}>
-        
+      <TabPanel value={value} index={8}>
+      <Main >
+      <div className='border_div'>
+      
+      <img src='./images/aisec.png' />
+      
+      
+     
+          <span class="top"></span>
+      <span class="right"></span>
+      <span class="bottom"></span>
+      <span class="left"></span>
+          </div>
+        </Main>
+        <Sub>
+        <img src='./images/sportsw.png' />
+        <img src='./images/rayon.png' />
+        <img src='./images/hte.png' />
+        <img src='./images/IEEE.png' />
+        <img src='./images/eemu.png' />
+          <img src='./images/leo.png' />
+          <img src='./images/union.png' />
+          <img src='./images/rac.png' />
+          
+          
+        </Sub>
       </TabPanel>
     </Box>
         </Desktop>
@@ -265,6 +298,7 @@ export default function BasicTabs() {
           <img src='./images/leo.png' />
           <img src='./images/rac.png' />
           <img src='./images/hte.png' />
+          <img src='./images/aisec.png' />
         </Mobile>
       </Wrap>
     </Container>
