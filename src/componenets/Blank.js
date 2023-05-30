@@ -10,7 +10,7 @@ function BlankPage() {
 
 const Container = styled.div`
     width: 100%;
-    height: 80vh;
+    height: 20vh;
     background: transperant;
 
     @media only screen and (max-width: 1200px){
