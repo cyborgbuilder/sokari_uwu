@@ -14,7 +14,7 @@ function Footer() {
             <a href='https://instagram.com/artclub.uwu?igshid=NTc4MTIwNjQ2YQ=='><BsInstagram  style={{fontSize: '40px', margin: '10px'}}/></a>
             <a href='https://www.facebook.com/artclubofuwu?mibextid=ZbWKwL'><BsFacebook style={{fontSize: '40px', margin: '10px'}}/></a>
             
-            {/* <BsYoutube style={{fontSize: '40px', margin: '10px'}}/> */}
+           
         </div>
         <div>
         <p>Adithya (President of Art club) &nbsp; - &nbsp; <span>+94 769371512</span></p>

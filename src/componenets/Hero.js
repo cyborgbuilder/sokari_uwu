@@ -12,8 +12,6 @@ function Hero() {
        />
 
       <Wrap>
-        {/* <h1>SOKARI</h1>
-        <h2>UVA WELLASSA UNIVERSITY PRESENTS</h2> */}
         <img src='./logo2.png' />
       </Wrap>
     </Container>
