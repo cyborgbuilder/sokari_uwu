@@ -9,6 +9,7 @@ import Feedback from './Feedback'
 import Footer from './Footer'
 import MapPage from './MapPage'
 import Sponsers from './Sponsers'
+import Ticket from './Ticket'
 
 function Home() {
   return (
@@ -17,11 +18,12 @@ function Home() {
       <About />
       <BlankPage />
       <LogoPage />
+      <Ticket />
       <Order />
       <Feedback />
       <MapPage />
       <Sponsers />
-      <Footer />
+      {/* <Footer /> */}
 
     </Container>
   )
@@ -29,6 +31,7 @@ function Home() {
 
 const Container = styled.div`
 width: 100%;
+overflow: hidden;
     position: absolute;
     top: 0;
 

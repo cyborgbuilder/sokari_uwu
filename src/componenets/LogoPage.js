@@ -12,7 +12,7 @@ function LogoPage() {
 
 const Container = styled.div`
     width: 100%;
-    height: 200vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -9,7 +9,7 @@ function Footer() {
   return (
     <Container>
       <Wrap>
-        {/* <Left>
+        <Left>
             <BsInstagram />
             <BsFacebook />
             <BsYoutube />
@@ -17,7 +17,7 @@ function Footer() {
         <Right>
             <p>Developed by</p>
             <img src='./images/duomo.png' />
-        </Right> */}
+        </Right>
       </Wrap>
     </Container>
   )
@@ -38,7 +38,7 @@ const Wrap = styled.div`
     height: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    //align-items: center;
 
     icons{
         color: #fff;
